@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="../main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="main-title">Світ кіно та серіалів</h1>
+        <nav class="navbar">
+            <a target="_blank" href="../index.html">Головна</a>
+            <a target="_blank" href="about.html">Про кіно</a>
+            <a target="_blank" href="anchors.html">Жанри кіно</a>
+            <a target="_blank" href="articles.html">Статті</a>
+            <a target="_blank" href="gallery.html">Галерея</a>
+            <a target="_blank" href="contacts.html">Контакти</a>
+        </nav>
+    </header>
+    <section class="page-title">
+        <h2>Зв'яжіться з нами</h2>
+        <p>
+            Ми завжди раді отримувати від вас відгуки, пропозиції та запитання. Якщо у вас є які-небудь питання або ви хочете поділитися своїми думками про наш сайт, будь ласка, не соромтеся зв'язатися з нами. Ви можете заповнити форму нижче, і ми відповімо вам якнайшвидше.
+        </p>
+    </section>
+    <form class="contact-form">
+        <label for="name">Ім'я:</label>
+        <input type="text" name="name" id="name" required placeholder="Ваше ім'я">
+        <label for="email">Електронна пошта:</label>
+        <input type="email" name="email" id="email" required placeholder="Ваш email">
+        <label for="genre">Улюблений жанр:</label>
+        <select name="genre" id="genre">
+            <option value="comedy">Комедія</option>
+            <option value="action">Бойовик</option>
+            <option value="fantasy">Фантастика</option>
+            <option value="horror">Жахи</option>
+            <option value="drama">Драма</option>
+        </select>
+        <label for="favorite-film">Улюблений фільм:</label>
+        <input type="text" name="favorite-film" id="favorite-film" placeholder="Ваш улюблений фільм">
+        <label for="favorite-show">Улюблений серіал:</label>
+        <input type="text" name="favorite-show" id="favorite-show" placeholder="Ваш улюблений серіал">
+        <label>Оцініть нас:</label>
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5">5 зірок</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">4 зірки</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">3 зірки</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">2 зірки</label>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">1 зірка</label>
+        </div>
+        <label for="message">Повідомлення:</label>
+        <textarea id="message" name="message" placeholder="Ваше повідомлення"></textarea>
+        <label>
+            <input type="checkbox" name="subscribe" value="yes">
+            Я згоден на обробку моїх даних відповідно до політики конфіденційності.
+        </label>
+        <button type="button">Надіслати</button>
+    </form>
+    <footer>
+        <p>© 2024 Світ кіно та серіалів. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
